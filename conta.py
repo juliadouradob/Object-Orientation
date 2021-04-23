@@ -20,6 +20,14 @@ class Conta:
     def titular(self):
         return self.__titular.title()
 
+    @staticmethod
+    def codigo_banco(self):
+        return "001"
+
+    @staticmethod
+    def codigos_bancos():
+        return {'BB': '001', 'Caixa': '104', 'Bradesco': '237'}
+
     def get_numero(self):
         return self.__numero
 
